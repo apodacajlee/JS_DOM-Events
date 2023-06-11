@@ -84,7 +84,7 @@ function show () {
 
     //add content to the modalCard
     h2.textContent = "Modal Header";
-    p.textContent = "Modal Content";
+    p.textContent = "Clicking the button triggers the onclick event, which calls the JS function show()... which alerts the user";
     closeBtn.textContent = "Close";
 
     //add an event listener to closeBtn to remove the modalContainer
